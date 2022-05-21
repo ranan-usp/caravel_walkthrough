@@ -63,7 +63,7 @@ simenv:
 	docker pull efabless/dv_setup:latest
 
 .PHONY: setup
-setup: install check-env install_mcw openlane pdk-with-volare
+setup: install check-env install_mcw pdk-with-volare
 
 # Openlane
 blocks=$(shell cd openlane && find * -maxdepth 0 -type d)
