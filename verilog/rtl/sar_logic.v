@@ -8,12 +8,12 @@ module sar_logic (
     input clk,
     input comp_in,
 
-    output [20:0] sample,
+    output wire [19:0] output_for_analog,
     output wire [20:0] io_oeb);
 
     assign io_oeb = 21'b000000000000000000000;
 
-    wire comp_en;
+    wire comp_en,sample;
     wire q5,q4,q3,q2,q1,q0;
     wire sw5,sw5b,sw4,sw4b,sw3,sw3b,sw2,sw2b,sw1,sw1b,sw0,sw0b;
     wire d1,d2,d3,d4,d5,d6;
@@ -67,8 +67,6 @@ module sar_logic (
                 .q1(q1),
                 .q0(q0));
 
-
-    
     assign sw5 = sample | r5 | d6;
     assign sw5b = ~sw5;
     assign sw4 = sample | r4 | d5;
@@ -82,10 +80,7 @@ module sar_logic (
     assign sw0 = sample | r0 | d1;
     assign sw0b = ~sw0;
 
-    
-    // + sw5*2048 + sw5b*1024 + sw4*512 + sw4b*256+ sw3*128 + sw3b*64 + sw2*32 + sw2b*16 + sw1*8 + sw1b*4 + sw0*2 + sw0b*1;
-
-
+    assign output_for_analog = {comp_en,sample,q5,q4,q3,q2,q1,q0,sw5,sw5b,sw4,sw4b,sw3,sw3b,sw2,sw2b,sw1,sw1b,sw0,sw0b};
 
         
 endmodule
@@ -127,7 +122,7 @@ module hold ( input wire comp_in,
                 output wire r1,
                 output wire r0);
 
-    dff  dff5 ( .d(comp_in),
+    dff dff5 ( .d(comp_in),
                 .rst (sample),
                 .clk (d6b),
                 .q (r5),

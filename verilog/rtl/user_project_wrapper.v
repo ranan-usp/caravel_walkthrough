@@ -111,7 +111,7 @@ sar_logic sar_logic (
     // IO Pads
 
     .comp_in (io_in),
-    .sample(io_out[20:0]),
+    .output_for_analog(io_out[19:0]),
     .io_oeb(io_oeb[20:0]) // drive low to enable output
 
     // IRQ

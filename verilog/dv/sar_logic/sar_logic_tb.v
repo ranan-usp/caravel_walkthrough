@@ -26,9 +26,9 @@ module sar_logic_tb;
 
 	wire gpio;
 	wire [37:0] mprj_io;
-	wire [20:0] mprj_io_0;
+	wire [19:0] mprj_io_0;
 
-	assign mprj_io_0 = mprj_io[20:0];
+	assign mprj_io_0 = mprj_io[19:0];
 	// assign mprj_io_0 = {mprj_io[8:4],mprj_io[2:0]};
 
 	assign mprj_io[3] = (CSB == 1'b1) ? 1'b1 : 1'bz;
@@ -78,8 +78,15 @@ module sar_logic_tb;
 		// wait(mprj_io_0 == 8'hFF);
 		// wait(mprj_io_0 == 8'h00);
 
-		wait(mprj_io_0 == 20'b000000000000000000001);
-		wait(mprj_io_0 == 20'b000000000000000000000);
+		wait(mprj_io_0 == 20'hC0AAA);
+		wait(mprj_io_0 == 20'h80555);
+		wait(mprj_io_0 == 20'h00955);
+		wait(mprj_io_0 == 20'h00655);
+		wait(mprj_io_0 == 20'h00595);
+		wait(mprj_io_0 == 20'h00565);
+		wait(mprj_io_0 == 20'h00559);
+		wait(mprj_io_0 == 20'h00556);
+
 		
 		`ifdef GL
 	    	$display("Monitor: Test 1 Mega-Project IO (GL) Passed");
@@ -114,7 +121,7 @@ module sar_logic_tb;
 	end
 
 	always @(mprj_io) begin
-		#1 $display("MPRJ-IO state = %b ", mprj_io[7:0]);
+		#1 $display("MPRJ-IO state = %b ", mprj_io[19:0]);
 	end
 
 	wire flash_csb;
