@@ -12,15 +12,15 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 8.370 0.000 8.650 4.000 ;
+        RECT 73.690 246.000 73.970 250.000 ;
     END
   END clk
   PIN comp_in
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 31.320 4.000 31.920 ;
+      LAYER met2 ;
+        RECT 76.910 246.000 77.190 250.000 ;
     END
   END comp_in
   PIN io_oeb[0]
@@ -28,7 +28,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 1.930 246.000 2.210 250.000 ;
+        RECT 1.470 246.000 1.750 250.000 ;
     END
   END io_oeb[0]
   PIN io_oeb[10]
@@ -36,7 +36,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 38.730 246.000 39.010 250.000 ;
+        RECT 35.510 246.000 35.790 250.000 ;
     END
   END io_oeb[10]
   PIN io_oeb[11]
@@ -44,7 +44,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 42.410 246.000 42.690 250.000 ;
+        RECT 39.190 246.000 39.470 250.000 ;
     END
   END io_oeb[11]
   PIN io_oeb[12]
@@ -52,7 +52,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 46.090 246.000 46.370 250.000 ;
+        RECT 42.410 246.000 42.690 250.000 ;
     END
   END io_oeb[12]
   PIN io_oeb[13]
@@ -60,7 +60,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 49.770 246.000 50.050 250.000 ;
+        RECT 46.090 246.000 46.370 250.000 ;
     END
   END io_oeb[13]
   PIN io_oeb[14]
@@ -68,7 +68,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 53.450 246.000 53.730 250.000 ;
+        RECT 49.310 246.000 49.590 250.000 ;
     END
   END io_oeb[14]
   PIN io_oeb[15]
@@ -76,7 +76,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 57.130 246.000 57.410 250.000 ;
+        RECT 52.990 246.000 53.270 250.000 ;
     END
   END io_oeb[15]
   PIN io_oeb[16]
@@ -84,7 +84,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 60.810 246.000 61.090 250.000 ;
+        RECT 56.210 246.000 56.490 250.000 ;
     END
   END io_oeb[16]
   PIN io_oeb[17]
@@ -92,7 +92,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 64.490 246.000 64.770 250.000 ;
+        RECT 59.890 246.000 60.170 250.000 ;
     END
   END io_oeb[17]
   PIN io_oeb[18]
@@ -100,7 +100,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 68.170 246.000 68.450 250.000 ;
+        RECT 63.110 246.000 63.390 250.000 ;
     END
   END io_oeb[18]
   PIN io_oeb[19]
@@ -108,7 +108,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 71.850 246.000 72.130 250.000 ;
+        RECT 66.790 246.000 67.070 250.000 ;
     END
   END io_oeb[19]
   PIN io_oeb[1]
@@ -116,7 +116,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 5.610 246.000 5.890 250.000 ;
+        RECT 4.690 246.000 4.970 250.000 ;
     END
   END io_oeb[1]
   PIN io_oeb[20]
@@ -124,7 +124,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 75.530 246.000 75.810 250.000 ;
+        RECT 70.010 246.000 70.290 250.000 ;
     END
   END io_oeb[20]
   PIN io_oeb[2]
@@ -132,7 +132,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 9.290 246.000 9.570 250.000 ;
+        RECT 7.910 246.000 8.190 250.000 ;
     END
   END io_oeb[2]
   PIN io_oeb[3]
@@ -140,7 +140,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 12.970 246.000 13.250 250.000 ;
+        RECT 11.590 246.000 11.870 250.000 ;
     END
   END io_oeb[3]
   PIN io_oeb[4]
@@ -148,7 +148,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 16.650 246.000 16.930 250.000 ;
+        RECT 14.810 246.000 15.090 250.000 ;
     END
   END io_oeb[4]
   PIN io_oeb[5]
@@ -156,7 +156,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 20.330 246.000 20.610 250.000 ;
+        RECT 18.490 246.000 18.770 250.000 ;
     END
   END io_oeb[5]
   PIN io_oeb[6]
@@ -164,7 +164,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 24.010 246.000 24.290 250.000 ;
+        RECT 21.710 246.000 21.990 250.000 ;
     END
   END io_oeb[6]
   PIN io_oeb[7]
@@ -172,7 +172,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 27.690 246.000 27.970 250.000 ;
+        RECT 25.390 246.000 25.670 250.000 ;
     END
   END io_oeb[7]
   PIN io_oeb[8]
@@ -180,7 +180,7 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 31.370 246.000 31.650 250.000 ;
+        RECT 28.610 246.000 28.890 250.000 ;
     END
   END io_oeb[8]
   PIN io_oeb[9]
@@ -188,177 +188,169 @@ MACRO sar_logic
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 35.050 246.000 35.330 250.000 ;
+        RECT 32.290 246.000 32.570 250.000 ;
     END
   END io_oeb[9]
-  PIN sample[0]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met2 ;
-        RECT 79.210 246.000 79.490 250.000 ;
-    END
-  END sample[0]
-  PIN sample[10]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met2 ;
-        RECT 90.250 246.000 90.530 250.000 ;
-    END
-  END sample[10]
-  PIN sample[11]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met2 ;
-        RECT 41.490 0.000 41.770 4.000 ;
-    END
-  END sample[11]
-  PIN sample[12]
+  PIN output_for_analog[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 96.000 160.520 100.000 161.120 ;
+        RECT 0.000 17.720 4.000 18.320 ;
     END
-  END sample[12]
-  PIN sample[13]
+  END output_for_analog[0]
+  PIN output_for_analog[10]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 219.000 4.000 219.600 ;
+        RECT 0.000 160.520 4.000 161.120 ;
     END
-  END sample[13]
-  PIN sample[14]
+  END output_for_analog[10]
+  PIN output_for_analog[11]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 58.050 0.000 58.330 4.000 ;
+        RECT 87.490 246.000 87.770 250.000 ;
     END
-  END sample[14]
-  PIN sample[15]
+  END output_for_analog[11]
+  PIN output_for_analog[12]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 82.890 0.000 83.170 4.000 ;
+    END
+  END output_for_analog[12]
+  PIN output_for_analog[13]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 90.710 246.000 90.990 250.000 ;
+    END
+  END output_for_analog[13]
+  PIN output_for_analog[14]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 94.390 246.000 94.670 250.000 ;
+    END
+  END output_for_analog[14]
+  PIN output_for_analog[15]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 96.000 195.880 100.000 196.480 ;
+        RECT 0.000 195.880 4.000 196.480 ;
     END
-  END sample[15]
-  PIN sample[16]
+  END output_for_analog[15]
+  PIN output_for_analog[16]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 93.930 246.000 94.210 250.000 ;
+      LAYER met3 ;
+        RECT 0.000 231.920 4.000 232.520 ;
     END
-  END sample[16]
-  PIN sample[17]
+  END output_for_analog[16]
+  PIN output_for_analog[17]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 74.610 0.000 74.890 4.000 ;
+      LAYER met3 ;
+        RECT 96.000 156.440 100.000 157.040 ;
     END
-  END sample[17]
-  PIN sample[18]
+  END output_for_analog[17]
+  PIN output_for_analog[18]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 219.000 100.000 219.600 ;
+    END
+  END output_for_analog[18]
+  PIN output_for_analog[19]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 97.610 246.000 97.890 250.000 ;
     END
-  END sample[18]
-  PIN sample[19]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT 96.000 231.920 100.000 232.520 ;
-    END
-  END sample[19]
-  PIN sample[1]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT 96.000 17.720 100.000 18.320 ;
-    END
-  END sample[1]
-  PIN sample[20]
+  END output_for_analog[19]
+  PIN output_for_analog[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 91.170 0.000 91.450 4.000 ;
+        RECT 80.590 246.000 80.870 250.000 ;
     END
-  END sample[20]
-  PIN sample[2]
+  END output_for_analog[1]
+  PIN output_for_analog[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 24.930 0.000 25.210 4.000 ;
+        RECT 16.650 0.000 16.930 4.000 ;
     END
-  END sample[2]
-  PIN sample[3]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT 0.000 93.880 4.000 94.480 ;
-    END
-  END sample[3]
-  PIN sample[4]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT 96.000 53.080 100.000 53.680 ;
-    END
-  END sample[4]
-  PIN sample[5]
+  END output_for_analog[2]
+  PIN output_for_analog[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 82.890 246.000 83.170 250.000 ;
+        RECT 83.810 246.000 84.090 250.000 ;
     END
-  END sample[5]
-  PIN sample[6]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT 0.000 156.440 4.000 157.040 ;
-    END
-  END sample[6]
-  PIN sample[7]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT 96.000 89.120 100.000 89.720 ;
-    END
-  END sample[7]
-  PIN sample[8]
+  END output_for_analog[3]
+  PIN output_for_analog[4]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 86.570 246.000 86.850 250.000 ;
+        RECT 49.770 0.000 50.050 4.000 ;
     END
-  END sample[8]
-  PIN sample[9]
+  END output_for_analog[4]
+  PIN output_for_analog[5]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 96.000 124.480 100.000 125.080 ;
+        RECT 96.000 31.320 100.000 31.920 ;
     END
-  END sample[9]
+  END output_for_analog[5]
+  PIN output_for_analog[6]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 53.080 4.000 53.680 ;
+    END
+  END output_for_analog[6]
+  PIN output_for_analog[7]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 89.120 4.000 89.720 ;
+    END
+  END output_for_analog[7]
+  PIN output_for_analog[8]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 93.880 100.000 94.480 ;
+    END
+  END output_for_analog[8]
+  PIN output_for_analog[9]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 124.480 4.000 125.080 ;
+    END
+  END output_for_analog[9]
   PIN vccd1
     DIRECTION INPUT ;
     USE POWER ;
@@ -391,71 +383,71 @@ MACRO sar_logic
       LAYER li1 ;
         RECT 5.520 10.795 94.300 236.725 ;
       LAYER met1 ;
-        RECT 1.910 10.640 94.300 236.880 ;
+        RECT 1.450 10.640 97.910 236.880 ;
       LAYER met2 ;
-        RECT 2.490 245.720 5.330 246.570 ;
-        RECT 6.170 245.720 9.010 246.570 ;
-        RECT 9.850 245.720 12.690 246.570 ;
-        RECT 13.530 245.720 16.370 246.570 ;
-        RECT 17.210 245.720 20.050 246.570 ;
-        RECT 20.890 245.720 23.730 246.570 ;
-        RECT 24.570 245.720 27.410 246.570 ;
-        RECT 28.250 245.720 31.090 246.570 ;
-        RECT 31.930 245.720 34.770 246.570 ;
-        RECT 35.610 245.720 38.450 246.570 ;
-        RECT 39.290 245.720 42.130 246.570 ;
+        RECT 2.030 245.720 4.410 246.570 ;
+        RECT 5.250 245.720 7.630 246.570 ;
+        RECT 8.470 245.720 11.310 246.570 ;
+        RECT 12.150 245.720 14.530 246.570 ;
+        RECT 15.370 245.720 18.210 246.570 ;
+        RECT 19.050 245.720 21.430 246.570 ;
+        RECT 22.270 245.720 25.110 246.570 ;
+        RECT 25.950 245.720 28.330 246.570 ;
+        RECT 29.170 245.720 32.010 246.570 ;
+        RECT 32.850 245.720 35.230 246.570 ;
+        RECT 36.070 245.720 38.910 246.570 ;
+        RECT 39.750 245.720 42.130 246.570 ;
         RECT 42.970 245.720 45.810 246.570 ;
-        RECT 46.650 245.720 49.490 246.570 ;
-        RECT 50.330 245.720 53.170 246.570 ;
-        RECT 54.010 245.720 56.850 246.570 ;
-        RECT 57.690 245.720 60.530 246.570 ;
-        RECT 61.370 245.720 64.210 246.570 ;
-        RECT 65.050 245.720 67.890 246.570 ;
-        RECT 68.730 245.720 71.570 246.570 ;
-        RECT 72.410 245.720 75.250 246.570 ;
-        RECT 76.090 245.720 78.930 246.570 ;
-        RECT 79.770 245.720 82.610 246.570 ;
-        RECT 83.450 245.720 86.290 246.570 ;
-        RECT 87.130 245.720 89.970 246.570 ;
-        RECT 90.810 245.720 93.650 246.570 ;
-        RECT 94.490 245.720 97.330 246.570 ;
-        RECT 1.940 4.280 97.610 245.720 ;
-        RECT 1.940 4.000 8.090 4.280 ;
-        RECT 8.930 4.000 24.650 4.280 ;
-        RECT 25.490 4.000 41.210 4.280 ;
-        RECT 42.050 4.000 57.770 4.280 ;
-        RECT 58.610 4.000 74.330 4.280 ;
-        RECT 75.170 4.000 90.890 4.280 ;
-        RECT 91.730 4.000 97.610 4.280 ;
+        RECT 46.650 245.720 49.030 246.570 ;
+        RECT 49.870 245.720 52.710 246.570 ;
+        RECT 53.550 245.720 55.930 246.570 ;
+        RECT 56.770 245.720 59.610 246.570 ;
+        RECT 60.450 245.720 62.830 246.570 ;
+        RECT 63.670 245.720 66.510 246.570 ;
+        RECT 67.350 245.720 69.730 246.570 ;
+        RECT 70.570 245.720 73.410 246.570 ;
+        RECT 74.250 245.720 76.630 246.570 ;
+        RECT 77.470 245.720 80.310 246.570 ;
+        RECT 81.150 245.720 83.530 246.570 ;
+        RECT 84.370 245.720 87.210 246.570 ;
+        RECT 88.050 245.720 90.430 246.570 ;
+        RECT 91.270 245.720 94.110 246.570 ;
+        RECT 94.950 245.720 97.330 246.570 ;
+        RECT 1.480 4.280 97.880 245.720 ;
+        RECT 1.480 4.000 16.370 4.280 ;
+        RECT 17.210 4.000 49.490 4.280 ;
+        RECT 50.330 4.000 82.610 4.280 ;
+        RECT 83.450 4.000 97.880 4.280 ;
       LAYER met3 ;
         RECT 4.000 232.920 96.000 236.805 ;
-        RECT 4.000 231.520 95.600 232.920 ;
+        RECT 4.400 231.520 96.000 232.920 ;
         RECT 4.000 220.000 96.000 231.520 ;
-        RECT 4.400 218.600 96.000 220.000 ;
+        RECT 4.000 218.600 95.600 220.000 ;
         RECT 4.000 196.880 96.000 218.600 ;
-        RECT 4.000 195.480 95.600 196.880 ;
+        RECT 4.400 195.480 96.000 196.880 ;
         RECT 4.000 161.520 96.000 195.480 ;
-        RECT 4.000 160.120 95.600 161.520 ;
+        RECT 4.400 160.120 96.000 161.520 ;
         RECT 4.000 157.440 96.000 160.120 ;
-        RECT 4.400 156.040 96.000 157.440 ;
+        RECT 4.000 156.040 95.600 157.440 ;
         RECT 4.000 125.480 96.000 156.040 ;
-        RECT 4.000 124.080 95.600 125.480 ;
+        RECT 4.400 124.080 96.000 125.480 ;
         RECT 4.000 94.880 96.000 124.080 ;
-        RECT 4.400 93.480 96.000 94.880 ;
+        RECT 4.000 93.480 95.600 94.880 ;
         RECT 4.000 90.120 96.000 93.480 ;
-        RECT 4.000 88.720 95.600 90.120 ;
+        RECT 4.400 88.720 96.000 90.120 ;
         RECT 4.000 54.080 96.000 88.720 ;
-        RECT 4.000 52.680 95.600 54.080 ;
+        RECT 4.400 52.680 96.000 54.080 ;
         RECT 4.000 32.320 96.000 52.680 ;
-        RECT 4.400 30.920 96.000 32.320 ;
+        RECT 4.000 30.920 95.600 32.320 ;
         RECT 4.000 18.720 96.000 30.920 ;
-        RECT 4.000 17.320 95.600 18.720 ;
+        RECT 4.400 17.320 96.000 18.720 ;
         RECT 4.000 10.715 96.000 17.320 ;
       LAYER met4 ;
         RECT 21.550 10.640 33.970 236.880 ;
         RECT 36.370 10.640 48.800 236.880 ;
         RECT 51.200 10.640 63.625 236.880 ;
         RECT 66.025 10.640 78.455 236.880 ;
+        RECT 80.855 10.640 88.025 236.880 ;
   END
 END sar_logic
 END LIBRARY
